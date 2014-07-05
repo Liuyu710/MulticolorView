@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F3E6A91967ECB30053FBD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6A81967ECB30053FBD7 /* Foundation.framework */; };
+		18F3E6AB1967ECB30053FBD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6AA1967ECB30053FBD7 /* CoreGraphics.framework */; };
+		18F3E6AD1967ECB30053FBD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6AC1967ECB30053FBD7 /* UIKit.framework */; };
+		18F3E6B31967ECB30053FBD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F3E6B11967ECB30053FBD7 /* InfoPlist.strings */; };
+		18F3E6B51967ECB30053FBD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3E6B41967ECB30053FBD7 /* main.m */; };
+		18F3E6B91967ECB30053FBD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3E6B81967ECB30053FBD7 /* AppDelegate.m */; };
+		18F3E6BC1967ECB30053FBD7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3E6BA1967ECB30053FBD7 /* Main_iPhone.storyboard */; };
+		18F3E6BF1967ECB30053FBD7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3E6BD1967ECB30053FBD7 /* Main_iPad.storyboard */; };
+		18F3E6C21967ECB30053FBD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3E6C11967ECB30053FBD7 /* ViewController.m */; };
+		18F3E6C41967ECB30053FBD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3E6C31967ECB30053FBD7 /* Images.xcassets */; };
+		18F3E6CB1967ECB30053FBD7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6CA1967ECB30053FBD7 /* XCTest.framework */; };
+		18F3E6CC1967ECB30053FBD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6A81967ECB30053FBD7 /* Foundation.framework */; };
+		18F3E6CD1967ECB30053FBD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6AC1967ECB30053FBD7 /* UIKit.framework */; };
+		18F3E6D51967ECB30053FBD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F3E6D31967ECB30053FBD7 /* InfoPlist.strings */; };
+		18F3E6D71967ECB30053FBD7 /* MulticolorLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3E6D61967ECB30053FBD7 /* MulticolorLayerDemoTests.m */; };
+		18F3E6E31967ED320053FBD7 /* MulticolorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3E6E21967ED320053FBD7 /* MulticolorView.m */; };
+		18F3E6E51967ED740053FBD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3E6E41967ED740053FBD7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F3E6CE1967ECB30053FBD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F3E69D1967ECB30053FBD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F3E6A41967ECB30053FBD7;
+			remoteInfo = MulticolorLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F3E6A51967ECB30053FBD7 /* MulticolorLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MulticolorLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F3E6A81967ECB30053FBD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18F3E6AA1967ECB30053FBD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18F3E6AC1967ECB30053FBD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18F3E6B01967ECB30053FBD7 /* MulticolorLayerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MulticolorLayerDemo-Info.plist"; sourceTree = "<group>"; };
+		18F3E6B21967ECB30053FBD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18F3E6B41967ECB30053FBD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F3E6B61967ECB30053FBD7 /* MulticolorLayerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MulticolorLayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18F3E6B71967ECB30053FBD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F3E6B81967ECB30053FBD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F3E6BB1967ECB30053FBD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		18F3E6BE1967ECB30053FBD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		18F3E6C01967ECB30053FBD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F3E6C11967ECB30053FBD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F3E6C31967ECB30053FBD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18F3E6C91967ECB30053FBD7 /* MulticolorLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulticolorLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F3E6CA1967ECB30053FBD7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18F3E6D21967ECB30053FBD7 /* MulticolorLayerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MulticolorLayerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		18F3E6D41967ECB30053FBD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18F3E6D61967ECB30053FBD7 /* MulticolorLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MulticolorLayerDemoTests.m; sourceTree = "<group>"; };
+		18F3E6E11967ED320053FBD7 /* MulticolorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorView.h; sourceTree = "<group>"; };
+		18F3E6E21967ED320053FBD7 /* MulticolorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorView.m; sourceTree = "<group>"; };
+		18F3E6E41967ED740053FBD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F3E6A21967ECB30053FBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3E6E51967ED740053FBD7 /* QuartzCore.framework in Frameworks */,
+				18F3E6AB1967ECB30053FBD7 /* CoreGraphics.framework in Frameworks */,
+				18F3E6AD1967ECB30053FBD7 /* UIKit.framework in Frameworks */,
+				18F3E6A91967ECB30053FBD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F3E6C61967ECB30053FBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3E6CB1967ECB30053FBD7 /* XCTest.framework in Frameworks */,
+				18F3E6CD1967ECB30053FBD7 /* UIKit.framework in Frameworks */,
+				18F3E6CC1967ECB30053FBD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F3E69C1967ECB30053FBD7 = {
+			isa = PBXGroup;
+			children = (
+				18F3E6AE1967ECB30053FBD7 /* MulticolorLayerDemo */,
+				18F3E6D01967ECB30053FBD7 /* MulticolorLayerDemoTests */,
+				18F3E6A71967ECB30053FBD7 /* Frameworks */,
+				18F3E6A61967ECB30053FBD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F3E6A61967ECB30053FBD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6A51967ECB30053FBD7 /* MulticolorLayerDemo.app */,
+				18F3E6C91967ECB30053FBD7 /* MulticolorLayerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F3E6A71967ECB30053FBD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6E41967ED740053FBD7 /* QuartzCore.framework */,
+				18F3E6A81967ECB30053FBD7 /* Foundation.framework */,
+				18F3E6AA1967ECB30053FBD7 /* CoreGraphics.framework */,
+				18F3E6AC1967ECB30053FBD7 /* UIKit.framework */,
+				18F3E6CA1967ECB30053FBD7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F3E6AE1967ECB30053FBD7 /* MulticolorLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6E01967ED270053FBD7 /* MulticolorView */,
+				18F3E6B71967ECB30053FBD7 /* AppDelegate.h */,
+				18F3E6B81967ECB30053FBD7 /* AppDelegate.m */,
+				18F3E6BA1967ECB30053FBD7 /* Main_iPhone.storyboard */,
+				18F3E6BD1967ECB30053FBD7 /* Main_iPad.storyboard */,
+				18F3E6C01967ECB30053FBD7 /* ViewController.h */,
+				18F3E6C11967ECB30053FBD7 /* ViewController.m */,
+				18F3E6C31967ECB30053FBD7 /* Images.xcassets */,
+				18F3E6AF1967ECB30053FBD7 /* Supporting Files */,
+			);
+			path = MulticolorLayerDemo;
+			sourceTree = "<group>";
+		};
+		18F3E6AF1967ECB30053FBD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6B01967ECB30053FBD7 /* MulticolorLayerDemo-Info.plist */,
+				18F3E6B11967ECB30053FBD7 /* InfoPlist.strings */,
+				18F3E6B41967ECB30053FBD7 /* main.m */,
+				18F3E6B61967ECB30053FBD7 /* MulticolorLayerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F3E6D01967ECB30053FBD7 /* MulticolorLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6D61967ECB30053FBD7 /* MulticolorLayerDemoTests.m */,
+				18F3E6D11967ECB30053FBD7 /* Supporting Files */,
+			);
+			path = MulticolorLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		18F3E6D11967ECB30053FBD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6D21967ECB30053FBD7 /* MulticolorLayerDemoTests-Info.plist */,
+				18F3E6D31967ECB30053FBD7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F3E6E01967ED270053FBD7 /* MulticolorView */ = {
+			isa = PBXGroup;
+			children = (
+				18F3E6E11967ED320053FBD7 /* MulticolorView.h */,
+				18F3E6E21967ED320053FBD7 /* MulticolorView.m */,
+			);
+			path = MulticolorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F3E6A41967ECB30053FBD7 /* MulticolorLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F3E6DA1967ECB30053FBD7 /* Build configuration list for PBXNativeTarget "MulticolorLayerDemo" */;
+			buildPhases = (
+				18F3E6A11967ECB30053FBD7 /* Sources */,
+				18F3E6A21967ECB30053FBD7 /* Frameworks */,
+				18F3E6A31967ECB30053FBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MulticolorLayerDemo;
+			productName = MulticolorLayerDemo;
+			productReference = 18F3E6A51967ECB30053FBD7 /* MulticolorLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F3E6C81967ECB30053FBD7 /* MulticolorLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F3E6DD1967ECB30053FBD7 /* Build configuration list for PBXNativeTarget "MulticolorLayerDemoTests" */;
+			buildPhases = (
+				18F3E6C51967ECB30053FBD7 /* Sources */,
+				18F3E6C61967ECB30053FBD7 /* Frameworks */,
+				18F3E6C71967ECB30053FBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F3E6CF1967ECB30053FBD7 /* PBXTargetDependency */,
+			);
+			name = MulticolorLayerDemoTests;
+			productName = MulticolorLayerDemoTests;
+			productReference = 18F3E6C91967ECB30053FBD7 /* MulticolorLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F3E69D1967ECB30053FBD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liuyu;
+				TargetAttributes = {
+					18F3E6C81967ECB30053FBD7 = {
+						TestTargetID = 18F3E6A41967ECB30053FBD7;
+					};
+				};
+			};
+			buildConfigurationList = 18F3E6A01967ECB30053FBD7 /* Build configuration list for PBXProject "MulticolorLayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F3E69C1967ECB30053FBD7;
+			productRefGroup = 18F3E6A61967ECB30053FBD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F3E6A41967ECB30053FBD7 /* MulticolorLayerDemo */,
+				18F3E6C81967ECB30053FBD7 /* MulticolorLayerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F3E6A31967ECB30053FBD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3E6BF1967ECB30053FBD7 /* Main_iPad.storyboard in Resources */,
+				18F3E6C41967ECB30053FBD7 /* Images.xcassets in Resources */,
+				18F3E6BC1967ECB30053FBD7 /* Main_iPhone.storyboard in Resources */,
+				18F3E6B31967ECB30053FBD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F3E6C71967ECB30053FBD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3E6D51967ECB30053FBD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F3E6A11967ECB30053FBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3E6E31967ED320053FBD7 /* MulticolorView.m in Sources */,
+				18F3E6C21967ECB30053FBD7 /* ViewController.m in Sources */,
+				18F3E6B91967ECB30053FBD7 /* AppDelegate.m in Sources */,
+				18F3E6B51967ECB30053FBD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F3E6C51967ECB30053FBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3E6D71967ECB30053FBD7 /* MulticolorLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F3E6CF1967ECB30053FBD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F3E6A41967ECB30053FBD7 /* MulticolorLayerDemo */;
+			targetProxy = 18F3E6CE1967ECB30053FBD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F3E6B11967ECB30053FBD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F3E6B21967ECB30053FBD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18F3E6BA1967ECB30053FBD7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F3E6BB1967ECB30053FBD7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		18F3E6BD1967ECB30053FBD7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F3E6BE1967ECB30053FBD7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		18F3E6D31967ECB30053FBD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F3E6D41967ECB30053FBD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F3E6D81967ECB30053FBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F3E6D91967ECB30053FBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F3E6DB1967ECB30053FBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MulticolorLayerDemo/MulticolorLayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MulticolorLayerDemo/MulticolorLayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18F3E6DC1967ECB30053FBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MulticolorLayerDemo/MulticolorLayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MulticolorLayerDemo/MulticolorLayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18F3E6DE1967ECB30053FBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MulticolorLayerDemo.app/MulticolorLayerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MulticolorLayerDemo/MulticolorLayerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MulticolorLayerDemoTests/MulticolorLayerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18F3E6DF1967ECB30053FBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MulticolorLayerDemo.app/MulticolorLayerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MulticolorLayerDemo/MulticolorLayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MulticolorLayerDemoTests/MulticolorLayerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F3E6A01967ECB30053FBD7 /* Build configuration list for PBXProject "MulticolorLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3E6D81967ECB30053FBD7 /* Debug */,
+				18F3E6D91967ECB30053FBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F3E6DA1967ECB30053FBD7 /* Build configuration list for PBXNativeTarget "MulticolorLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3E6DB1967ECB30053FBD7 /* Debug */,
+				18F3E6DC1967ECB30053FBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F3E6DD1967ECB30053FBD7 /* Build configuration list for PBXNativeTarget "MulticolorLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3E6DE1967ECB30053FBD7 /* Debug */,
+				18F3E6DF1967ECB30053FBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F3E69D1967ECB30053FBD7 /* Project object */;
+}
